@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7007162434589410425
+--- !u!114 &-5552304028411429182
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,11 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RustyMetalPlate
+  m_Name: LaberintoCorrugatedIron 1
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
   - _PARALLAXMAP
@@ -42,11 +43,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 6babac08befb4460faa8e4d2f1e6cae7, type: 3}
-        m_Scale: {x: 6.3, y: 6.27}
-        m_Offset: {x: -0.15, y: -0.15}
+        m_Texture: {fileID: 2800000, guid: 2e92b30476ea142e69b00d7d32aec691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5f6aff54778ad458cb13f84096623168, type: 3}
+        m_Texture: {fileID: 2800000, guid: 80448caed69824195959df57a5e2e0b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -66,19 +67,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6babac08befb4460faa8e4d2f1e6cae7, type: 3}
-        m_Scale: {x: 6.3, y: 6.27}
-        m_Offset: {x: -0.15, y: -0.15}
+        m_Texture: {fileID: 2800000, guid: 2e92b30476ea142e69b00d7d32aec691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: da50c36069d03404eb18635406379794, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: bcde3e20a959d432bba927e407bdb54d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef26f88a2ee364f2381b80507527b817, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: c13f48d8c80b44b6592c0ea074ebd290, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5f513bc1c64845bdba666c3283fc11f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
